@@ -1,38 +1,418 @@
-.App {
+.App{
+  background-color: white;
+}
+.title{
+  /* border: 1px solid black; */
+  margin: 10px 10px;
+  padding: 5px 5px;
+ }
+
+ .card-container1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+} 
+ button{
+  margin: 10px 10px;
+  padding: 10px 10px;
+
+} 
+
+
+.App{
+  /* display: flex; */
+  /* flex-direction: row;  */
   text-align: center;
+  background-color:whitesmoke; 
+  
+} 
+ .head{
+  display: flex;
+  flex-direction: row;
+  margin: 5px 5px;
+  padding: 5px 5px;
+  justify-content: space-between;
+  background-color: white;
+} 
+.g{
+  margin:5px 5px;
+} 
+ .lay-container{
+  display: flex;
+  flex-direction: row;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+  height: 100%;
+  width: 20%;
+  background-color:blue;
+  font-size:medium;
+  border-radius: 5px;
+}
+.nav >div {
+  margin: 20px 20px;
+  text-align: left;
+  
+}
+.sb{
+  font-weight: bold;
+  font-style: normal;
+}
+.dis{
+   /* border: 1px solid red;  */
+  height:100%;
+  width: 80%;
+} 
+
+ .fo-item{
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid black;  */
+  margin: 5px 5px;
+  background-color: white;
+} 
+.search{ 
+  display: flex;
+  align-items: start;
+  margin: 10px 10px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  
+}
+.b{
+  background-color: blue;
+  border-radius: 5px;
+  padding: 0%;
   color: white;
+
+  
+}
+ .icon{
+  display: flex; 
+  /* border: 1px solid black; */
+  flex-direction: row;  
+  justify-content: end;
+  height: 0%;
+  width: 80%;
+  
+} 
+.icon >div { 
+/* border: 1px solid black;  */
+margin: 20px 20px;
+padding: 5px 5px; 
+border-radius: 5px; 
+
+ }  
+
+ .title{
+  text-align: left;
+}
+.top1{
+  display: flex;
+  flex-direction: row;
+  margin: 5px 5px;
+  padding: 5px 5px; 
+  justify-content: space-between;
+  background-color: white;
+ } 
+.card-container{ 
+   /* border: 1px solid black;  */
+   display: flex; 
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+
+} 
+
+ .card-container > div{
+  height:90px;
+  width: 250px;
+  /* border: 1px solid black; */
+  margin: 5px 5px;
+  padding: 15px 5px;
+  border-style: initial;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.top3{
+  /* border: 1px solid black; */
+  margin: 5px 5px;
+  padding: 5px 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; 
+  background-color: white;
+  
+}
+.pro{
+  /* border: 1px solid black; */
+  margin: 5px 5px;
+  padding: 5px 5px;
+  height: 0%;
+  width: 50%;
+  border-radius: 5px;
+  text-align: left;
+  background-color: white;
+} 
+ .pro > progress{
+  font-size:xx-small;
+  text-align: left; 
+} 
+.illu{
+  /* border: 1px solid black; */
+  margin: 5px 5px;
+  padding: 5px 5px;
+  height: 0%;
+  width: 50%;
+  border-radius: 5px;
+  text-align: left;
+  background-color: white;
+}
+.top4{
+  /* border: 1px solid black; */
+  margin: 5px 5px;
+  padding: 5px 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-radius: 5px;
+}
+.bn{
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  margin: 5px 10px;
+  padding: 5px 5px;
+  height: 0%;
+  width: 50%;
+  justify-content: space-evenly;
+  background-color: white;
+} 
+
+ .th{ 
+  /* border: 1px solid black;  */
+  border-radius: 5px;
+  margin: 5px 5px;
+  padding: 5px 10px;
+  height: 0%;
+  width: 50%;
+  text-align: left;
+  background-color: white;
+}
+.card1{ 
+  height:100px;
+  width: 200px;
+  /* border: 1px solid black; */
+  margin: 5px 5px;
+  padding: 15px 5px;
+  border-radius: 5px;
+} 
+ .foot{
+  background-color: white;
+}
+.car1{
+  background-color: red;
+}
+.car2{
+  background-color: grey;
+}
+.car3{
+  background-color: yellow;
+}
+.car4{
+  background-color: blueviolet;
+}
+.car5{
+  background-color: violet;
+}
+.car6{
+  background-color: orange;
+}
+.car7{
+  background-color: khaki;
+}
+.car8{
+  background-color:purple;
+}
+.fa{
+  margin: 5px 5px;
+
+} 
+
+
+ /* .App{
+  background-color: white;
+  margin-top: 50px;
+} */
+.us-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* border: 1px solid black; */
+  /* margin: 10px 10px; */
+  /* padding: 5px 5px; */
+} 
+ h3{
+  text-align: center;
+  padding: 5px 5px;
+}
+.img{ 
+  /* border: 1px solid black; */
+   margin: 10px 10px;
+  padding: 5px 5px;
+  height: 0%; 
+  /* width: 50%; */
+}
+.user { 
+  /* border: 1px solid black; */
+   margin-top: 40px;
+  padding: 5px 5px;
+  height: 0%; 
+  /* width: 50%; */
+}
+ .input{
+  border-radius: 10px;
+  width: 200px;
+  background-color: blue;
+  
+} 
+
+
+
+/* .App{
+  background-color: white;
+  margin-top: 50px;
+} */
+.us-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* border: 1px solid black; */
+  /* margin: 10px 10px; */
+  padding: 5px 5px;
+}
+h3{
+  text-align: center;
+}
+.img{
+  /* border: 1px solid black; */
+  margin: 10px 10px;
+  padding: 5px 5px;
+  height: 0%;
+  /* width: 50%; */
+}
+.user{
+  /* border: 1px solid black; */
+  margin-top: 40px;
+  padding: 5px 5px;
+  height: 0%;
+  /* width: 50%; */
+}
+.input{
+  border-radius: 10px;
+  width: 200px;
+  background-color:  skyblue;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* .App{
+  background-color: white;
+} */
+.title{
+  /* border: 1px solid black; */
+  margin: 10px 10px;
+  padding: 5px 5px;
 }
+.top1-container{
+  display: block;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+.top1 >span {
+  margin: 10px 10px;
+  padding: 5px 5px;
+ 
+}
+
+.bn{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  margin: 5px 10px;
+  padding: 5px 5px;
+  height: 0%;
+  /* width: 0; */
+  /* justify-content: space-evenly; */
+  background-color: white;
+}
+.card1{
+  height:100px;
+  width: 200px;
+  border-left: 1px solid black;
+  margin: 5px 5px;
+  padding: 15px 5px;
+  border-radius: 5px;
+}
+.car1{
+  border-left: 3px solid blue;
+}
+.car2{
+  border-left: 3px solid gray;
+}
+.car3{
+  border-left: 3px solid green;
+}
+.car4{
+  border-left: 3px solid red;
+}
+.car5{
+  border-left: 3px solid yellow;
+}
+.car6{
+  border-left: 3px solid lightblue;
+}
+.car7{
+  border-left: 3px solid white;
+}
+.car8{
+  border-left: 3px solid black;
+}
+
+.ca1{
+  border-bottom: 3px solid blue;
+}
+.ca2{
+  border-bottom: 3px solid gray;
+}
+.ca3{
+  border-bottom: 3px solid green;
+}
+.ca4{
+  border-bottom: 3px solid red;
+}
+.ca5{
+  border-bottom: 3px solid yellow;
+}
+.ca6{
+  border-bottom: 3px solid lightblue;
+}
+.ca7{
+  border-bottom: 3px solid white;
+}
+.ca8{
+  border-bottom: 3px solid black;
+}
+
+.foot{
+  font-weight: bold;
+  padding: 10px 10px;
+}
+
