@@ -47,8 +47,8 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height:100vw;
-  width: 20vw;
+  height: 100%;
+  width: 20%;
   background-color:blue;
   font-size:medium;
   border-radius: 5px;
@@ -67,8 +67,8 @@
 }
 .dis{
    /* border: 1px solid red;  */
-  height:100vw;
-  width: 80vw;
+  height:100%;
+  width: 80%;
   
   
   
