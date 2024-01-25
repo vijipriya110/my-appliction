@@ -59,6 +59,7 @@
 .nav >div {
   margin: 20px 20px;
   text-align: left;
+  overflow-y: scroll;
   
 }
 .sb{
