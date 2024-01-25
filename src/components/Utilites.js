@@ -19,7 +19,7 @@ function Utilites() {
           theme past the default utility classes built into Bootstrap's framework.
         </p>
       </div>
-      <div className="top1-container title">
+      // <div className="top1-container title">
         <h5>Border color left</h5>
         <p>Change the border color using utilities built on our theme colors.</p>
         <div className="bn">
@@ -56,7 +56,7 @@ function Utilites() {
               <p>#5a5c69</p>
             </div>
             </div>
-            </div>
+          
             <h5>Border color bottom</h5>
         <p>Change the border color using utilities built on our theme colors.</p>
         <div className="bn">
