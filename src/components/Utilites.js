@@ -12,13 +12,13 @@ function Utilites() {
       <div className="title">
         <h1>Border Utilities</h1>
       </div>
-      <di>
+      <div>
         <p className="title">
           Bootstrap's default utility classes can be found on the official Bootstrap Documentation page.
           The custom utilities below were created to extend this
           theme past the default utility classes built into Bootstrap's framework.
         </p>
-      </di>
+      </div>
       <div className="top1-container title">
         <h5>Border color left</h5>
         <p>Change the border color using utilities built on our theme colors.</p>
@@ -54,6 +54,7 @@ function Utilites() {
             <div className="car8 card1">
               <p>.border-left-warning</p>
               <p>#5a5c69</p>
+            </div>
             </div>
             </div>
             <h5>Border color bottom</h5>
@@ -96,7 +97,7 @@ function Utilites() {
             
 
 
-      </div>
+      
     </div>
     // </Base>
     
