@@ -52,7 +52,7 @@
   background-color:blue;
   font-size:medium;
   border-radius: 5px;
-  position:fixed;
+ 
  
   
 }
@@ -69,8 +69,7 @@
    /* border: 1px solid red;  */
   height:100vw;
   width: 80vw;
-  margin-left:20vw;
-  overflow-y:scroll;
+  
   
   
   
