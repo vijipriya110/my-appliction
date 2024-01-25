@@ -57,43 +57,6 @@ function Utilites() {
             </div>
             </div>
           
-            <h5>Border color bottom</h5>
-        <p>Change the border color using utilities built on our theme colors.</p>
-        <div className="bn">
-            <div className="ca1 card1">
-              <p>.border-bottom-primary</p>
-              <p>#4e73df</p>
-            </div>
-            <div className="ca2 card1">
-              <p>.border-bottom-secondary</p>
-              <p>#1cc88a</p>
-            </div>
-            <div className="ca3 card1">
-              <p>.border-bottom-success</p>
-              <p>#36b9cc</p>
-            </div>
-            <div className="ca4 card1">
-              <p>.border-bottom-info</p>
-              <p>#f6c23e</p>
-            </div>
-            <div className="ca5 card1">
-              <p>.border-bottom-warning</p>
-              <p>#e74a3b</p>
-            </div>
-            <div className="ca6 card1">
-              <p>.border-bottom-danger</p>
-              <p>#858796</p>
-            </div>
-            <div className="ca7 card1">
-              <p>.border-bottom-dark</p>
-              <p>#f8f9fc</p>
-            </div>
-            <div className="ca8 card1">
-              <p>.border-bottom-warning</p>
-              <p>#5a5c69</p>
-            </div>
-            </div>
-        
             
 
 
