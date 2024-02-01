@@ -27,34 +27,34 @@ function Utilites() {
               <p>.border-left-primary</p>
               <p>#4e73df</p>
             </div>
-            <div className="car2 card1">
-              <p>.border-left-secondary</p>
-              <p>#1cc88a</p>
-            </div>
-            <div className="car3 card1">
-              <p>.border-left-success</p>
-              <p>#36b9cc</p>
-            </div>
-            <div className="car4 card1">
-              <p>.border-left-info</p>
-              <p>#f6c23e</p>
-            </div>
-            <div className="car5 card1">
-              <p>.border-left-warning</p>
-              <p>#e74a3b</p>
-            </div>
-            <div className="car6 card1">
-              <p>.border-left-danger</p>
-              <p>#858796</p>
-            </div>
-            <div className="car7 card1">
-              <p>.border-left-dark</p>
-              <p>#f8f9fc</p>
-            </div>
-            <div className="car8 card1">
-              <p>.border-left-warning</p>
-              <p>#5a5c69</p>
-            </div>
+            // <div className="car2 card1">
+            //   <p>.border-left-secondary</p>
+            //   <p>#1cc88a</p>
+            // </div>
+            // <div className="car3 card1">
+            //   <p>.border-left-success</p>
+            //   <p>#36b9cc</p>
+            // </div>
+            // <div className="car4 card1">
+            //   <p>.border-left-info</p>
+            //   <p>#f6c23e</p>
+            // </div>
+            // <div className="car5 card1">
+            //   <p>.border-left-warning</p>
+            //   <p>#e74a3b</p>
+            // </div>
+            // <div className="car6 card1">
+            //   <p>.border-left-danger</p>
+            //   <p>#858796</p>
+            // </div>
+            // <div className="car7 card1">
+            //   <p>.border-left-dark</p>
+            //   <p>#f8f9fc</p>
+            // </div>
+            // <div className="car8 card1">
+            //   <p>.border-left-warning</p>
+            //   <p>#5a5c69</p>
+            // </div>
             </div>
           
             
